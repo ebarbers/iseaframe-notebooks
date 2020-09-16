@@ -25,6 +25,7 @@
       <ConvectionActivated advancedAreaAggregation="true">true</ConvectionActivated>
       <RadiationActivated>true</RadiationActivated>
       <GeometricalTolerance angleInDegrees="0.001" length="1e-06" percentOfQuantity="0.1"/>
+      <StepTime>0.1</StepTime>
    </Options>
    <Observer>
       <Electrical>
@@ -231,7 +232,7 @@
          </Children>
          <Soc cache="True" class="Soc">
             <InitialCapacity>65.0364</InitialCapacity>
-            <InitialSoc>100</InitialSoc>
+            <InitialSoc>50</InitialSoc>
             <MeasurementPoints>
 -10, -5, 0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100
 </MeasurementPoints>
